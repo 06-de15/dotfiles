@@ -11,8 +11,8 @@
 	prl = pr list
 	prco = pr checkout
 [user]
-	name = xsota
-	email = git@xsota.com
+	name = 06-de15
+	email = git@06-de15.com
 [core]
 	editor = emacs -nw
 	excludesfile = ~/.gitignore_global
