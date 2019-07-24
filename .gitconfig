@@ -12,7 +12,7 @@
 	prco = pr checkout
 [user]
 	name = 06-de15
-	email = git@06-de15.com
+	email = 06.de15@gmail.com
 [core]
 	editor = emacs -nw
 	excludesfile = ~/.gitignore_global
