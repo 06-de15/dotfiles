@@ -1,7 +1,7 @@
 # my dotfiles
 
 ```zsh
-git clone git@github.com:xsota/dotfiles.git
+git clone git@github.com:06-de15/dotfiles.git
 cd dotfiles
 ./ln.sh
 ```
