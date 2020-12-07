@@ -7,6 +7,9 @@ setopt pushd_ignore_dups
 setopt correct
 setopt auto_cd
 
+#homebrewのパスを通す
+eval $(/home/linuxbrew/.linuxbrew/bin/brew shellenv)
+
 #history
 HISTFILE=~/.zsh_history
 HISTSIZE=100000
@@ -27,9 +30,6 @@ zstyle ':completion:*' list-colors 'di=34' 'ln=35' 'so=32' 'ex=31' 'bd=46;34' 'c
 #先方予測
 #autoload predict-on
 #predict-on
-
-# github command
-function git(){hub "$@"}
 
 #prompt
 PROMPT='${HOST}@%{[$[32+RANDOM%6]m%}%n%{[m%}%% '
